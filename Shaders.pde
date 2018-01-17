@@ -9,7 +9,7 @@ void setupShaders() {
 }
 
 void updateShaders() {
-  shaderSetTexture(shader, "texture", tex);
+  shaderSetTexture(shader, "tex0", drawTex);
   shaderSetMouse(shader);
   shaderSetTime(shader);
 }
